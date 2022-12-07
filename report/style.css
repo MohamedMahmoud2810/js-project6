@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+p{
+
+    margin: 100px;
+    width: 500px;
+    margin-left: 500px;
+}
+.syntax{
+    background-color: rgb(170, 170, 170);
+    width: 500px;
+    height: 80px;
+    padding-top: 50px;
+}
