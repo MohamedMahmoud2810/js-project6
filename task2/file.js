@@ -55,7 +55,7 @@ function addElementsToPage(arrayOfTasks){
         span.appendChild(document.createTextNode(task.title));
         
         // create delete button
-        /////////////////////////////////////////////////////////////////////////////////// this is a bug here
+        /////////////////////////////////////////////////////////////////////////////////// there is a bug here
         let span1 = document.createElement("span");
         span1.className= "delete";
         span1.appendChild(document.createTextNode("delete"));
