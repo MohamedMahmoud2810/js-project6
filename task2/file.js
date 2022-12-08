@@ -55,12 +55,13 @@ function addElementsToPage(arrayOfTasks){
         span.appendChild(document.createTextNode(task.title));
         
         // create delete button
+        /////////////////////////////////////////////////////////////////////////////////// this is a bug here
         let span1 = document.createElement("span");
         span1.className= "delete";
         span1.appendChild(document.createTextNode("delete"));
         //append button to main div
         span.appendChild(span1);
-
+//////////////////////////////////////////////////////////////////////////////////////////////// done doesn't work
         //create done button 
         let span2 = document.createElement("span");
         span2.className = "done";
